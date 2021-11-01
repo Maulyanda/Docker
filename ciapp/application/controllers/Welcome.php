@@ -3,14 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-	function __construct() {
-		parent::__construct();
-		$this->load->model('Niagahoster_model','niagahoster');
-	}
+	
 
 	public function index()
 	{
-		$data = $this->niagahoster->getData();
+		$data = $this->db->select('*')->from('tbl_price')->get()->result();
 
 		$no = -0;
 		foreach($data as $r){

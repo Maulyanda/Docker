@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db:3306',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'db',
+	'username' => 'devuser',
+	'password' => 'devpass',
 	'database' => 'niagahoster',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

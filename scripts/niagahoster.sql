@@ -1,11 +1,3 @@
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
-CREATE TABLE IF NOT EXISTS `ci_sessions` (
-     `id` varchar(128) NOT NULL,
-     `ip_address` varchar(45) NOT NULL,
-     `timestamp` int(10) unsigned DEFAULT 0 NOT NULL,
-     `data` blob NOT NULL,
-     KEY `ci_sessions_timestamp` (`timestamp`)
-);
 DROP TABLE IF EXISTS `tbl_price`;
 CREATE TABLE `tbl_price`  (
   `id_price` int NOT NULL AUTO_INCREMENT,
