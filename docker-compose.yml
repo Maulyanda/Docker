@@ -14,10 +14,10 @@ services:
     ports:
       - 6033:3306
 
-  ciapp:
-    build: ./ciapp
+  niagahosterapp:
+    build: ./niagahosterapp
     volumes: 
-      - ./ciapp:/var/www/html/
+      - ./niagahosterapp:/var/www/html/
     depends_on:
        - db
     restart: always

@@ -3,9 +3,9 @@ Docker dengan Linux atau Windows, mengatur CodeIgniter dan MySQL
 
 Langkah - langkah penggunaan :
 
-1. Download dan install Docker dan MySQL di Linux maupun Windows. Disini saya menggunakan XAMPP/LAMPP untuk database nya.
+1. Download dan install Docker maupun MySQL di Linux maupun Windows. Disini saya menggunakan XAMPP/LAMPP untuk database nya.
 
-2. Setelah doenload/clone repositori ini, buka file docker-compose.yml dan mengubah parameter tersebut jika diperlukan.
+2. Setelah download/clone repositori ini, buka file docker-compose.yml dan mengubah parameter tersebut jika diperlukan.
 
 	**db_data directory Tempat penyimpanan data MySQL**
 	
